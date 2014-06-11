@@ -59,9 +59,9 @@ public class Snake {
         terminal.moveCursor(6,6);
         Write("PLEASE SELECT PLAYING GROUND",terminal);
         terminal.moveCursor(6,7);
-		Write("PRESS 1 FOR EASY", terminal);
+		Write("PRESS Insert FOR EASY", terminal);
 		terminal.moveCursor(6,8);
-		Write("PRESS 2 FOR DIFFICULT", terminal);
+		Write("PRESS Delete FOR DIFFICULT", terminal);
 		
 		while (dificulty==0){
 		Key p = terminal.readInput();
